@@ -1,0 +1,131 @@
+intents:
+ - greet
+ - information
+ - details
+ - hiringprocess
+ - hiringdetails
+ - projects
+ - good bye
+ - Affirmative
+
+entities:
+ - program
+ - duration
+ - price
+ - location
+ - address
+ - time
+ - recruitment
+ - registraition
+ - salary
+ - accommodation
+ - qualification
+ - interview
+ - jobafterfellowship
+ - salaryafterfellowship
+ - projectsduringfellowship
+ - dailytasks
+ - technologyanddomain
+ - durationofprogram
+ - relocation
+ - organization
+ - eligibility
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+    - 'Hey!'
+  utter_goodbye:
+    - 'okay Bye :)'
+    - 'Bye bye :)'
+  utter_information:
+    - Coding jobs with emerging tech product companies require confidence in everyday coding.
+      BridgeLabz fellowship program gives engineers the chance to develop in-depth hands-on 
+      knowledge in a well-defined Tech Stack by developing real-world Apps. 
+      Also we guarantee your job with our partner product companies.
+
+    - We have placed more than 500 engineers till date in 100+ partner companies.
+      We partner with product companies of all sizes working on emerging tech like 
+      Capgemini Urban Ladder Yatra.com MetricStream etc. We guarantee your job with 
+      any of our partner companies and we keep partnering with more companies every month.
+
+    - From morning 8.30 AM to 7.30 PM the fellowship engineers are expected to code. 
+      In the beginning it is data structures later it is live sample app and lastly it 
+      is to develop App solving the real-world problem statement.
+  utter_details:
+    - The program is 4 months on a full-time basis.
+
+    - The program is free to the fellows. You do not have to pay anything for the program.
+
+    - No! We believe that interaction with the mentors and the live environment is very 
+      important for success in the fellowship program.
+
+    - BridgeLabz Solutions LLP, No. 42, 14th Main, 15th Cross, Sector 4 ,opp to BDA complex, 
+      near Kumarakom restaurant, HSR Layout, Bangalore 560034
+
+    - From morning 8.30 AM to 7.30 PM the fellowship engineers are expected to code. 
+      In the beginning it is data structures later it is live sample app and lastly it 
+      is to develop App solving the real-world problem statement.
+
+    - We do not offer any stipend
+
+    - We help connect you to the right PG partners where majority of our 700 + past 
+      fellows have stayed and benefitted from. 
+
+    - Our fellows get salaries benchmarked with the best in the industry. The specific 
+      salary can depend on the technology being worked on ‚Äì but our fellows are rated 
+      as long term material by our partner companies and get salaries on par with on-campus 
+      hires. The starting salaries for fresh engineers can be between Rs 4 to 8 lacs per annum.
+
+    - 100% of fellowship engineers will be involved in developing Cloud Aware Apps solving 
+      real-world problems. 
+
+    - Essentially the Tech Stack we work on are Android iOS on Native Web Apps on Angular 
+      and React Backend Servers on Java Spring Hibernate and MEAN stack. All development 
+      is done on Linux Environment and for iOS in Mac Machine. We use Heroku and AWS Cloud. 
+      We use several other tech stacks like Redis for Caching and Messaging MQTT for Push 
+      Notifications Git Repository Dagger for Dependency Injection Retrofit Volley & Alamofire 
+      for Networking Rest Calls etc
+
+    - Mumbai and Bangalore depending on your convenience.
+ 
+    - We are directly not helping however our HR team supports the students with the details 
+      of a contact person
+
+    - Your locational preference is taken into consideration while deciding the final job location. 
+
+  utter_affirmative:
+    - okay
+
+  utter_hiringprocess:
+    - You will require to register for one of our recruitment drives and pass our hackathon 
+      challenge which includes a technical interview.
+
+    - You can register here- https://codingtest.bridgelabz.com/register/CHATBOT1.0
+    
+  utter_hiringdetails:
+    - All the candidates need to be Engineers or MCAs with minimum 60% Aggregate and very 
+      comfortable in Coding on Data Structures.
+ 
+    - The first interview depending on your skills demonstrated in your application and 
+      challenge submission will involve some or all of the following- Motivation and why 
+      you are interested in the fellowship Your answer to the Hackathon problems and the reasoning
+      behind it.
+
+    - Currently we are supporting only Freshers. We will definitely get back to you on this through mail
+
+  utter_projects:
+    - coding jobs with emerging tech product companies require confidence in everyday coding. 
+      BridgeLabz fellowship program gives engineers the chance to develop in-depth hands-on 
+      knowledge in a well-defined Tech Stack by developing real-world Apps. Also we guarantee 
+      your job with our partner product companies.
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_information
+ - utter_details
+ - utter_affirmative
+ - utter_hiringprocess
+ - utter_hiringdetails
+ - utter_projects

@@ -1,0 +1,510 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "What is the fellowship program?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "fellowship program",
+            "entity": "program"
+          }
+        ]
+      },
+      {
+        "text": "How long is the fellowship program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "fellowship program",
+            "entity": "program"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "long",
+            "entity": "duration"
+          }
+        ]
+      },
+      {
+        "text": "How much does fellowship program cost?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 13,
+            "end": 37,
+            "value": " fellowship program cost",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Can the fellowship program be done remotely?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "fellowship program",
+            "entity": "program"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "remotely",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How do i reach to bridgelabz",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 9,
+            "end": 28,
+            "value": "reach to bridgelabz",
+            "entity": "address"
+          }
+        ]
+      },
+      {
+        "text": "What is the working hours of the training program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": " working hours",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "How do I get in?",
+        "intent": "hiringprocess",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "I get in",
+            "entity": "recruitment"
+          }
+        ]
+      },
+      {
+        "text": "How do I register for the fellowship program?",
+        "intent": "hiringprocess",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "register",
+            "entity": "registraition"
+          }
+        ]
+      },
+      {
+        "text": "Do fellowship program offer any stipend or living accommodations?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "stipend",
+            "entity": "salary"
+          },
+          {
+            "start": 43,
+            "end": 64,
+            "value": "living accommodations",
+            "entity": "accommodation"
+          }
+        ]
+      },
+      {
+        "text": "Do fellowship program offer any package or living accommodations?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "package",
+            "entity": "salary"
+          },
+          {
+            "start": 42,
+            "end": 64,
+            "value": " living accommodations",
+            "entity": "accommodation"
+          }
+        ]
+      },
+      {
+        "text": "What is the minimum qualification for the fellowship program?",
+        "intent": "hiringdetails",
+        "entities": [
+          {
+            "start": 12,
+            "end": 33,
+            "value": "minimum qualification",
+            "entity": "qualification"
+          },
+          {
+            "start": 42,
+            "end": 60,
+            "value": "fellowship program",
+            "entity": "program"
+          }
+        ]
+      },
+      {
+        "text": "What can I expect in the technical interview?",
+        "intent": "hiringdetails",
+        "entities": [
+          {
+            "start": 25,
+            "end": 44,
+            "value": "technical interview",
+            "entity": "interview"
+          }
+        ]
+      },
+      {
+        "text": "What can fellowship engineer expect in the technical interview?",
+        "intent": "hiringdetails",
+        "entities": [
+          {
+            "start": 43,
+            "end": 62,
+            "value": "technical interview",
+            "entity": "interview"
+          }
+        ]
+      },
+      {
+        "text": "What happens to fellows after they graduate?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 16,
+            "end": 43,
+            "value": "fellows after they graduate",
+            "entity": "jobafterfellowship"
+          }
+        ]
+      },
+      {
+        "text": "How much package I get after the fellowship program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 9,
+            "end": 51,
+            "value": "package I get after the fellowship program",
+            "entity": "salaryafterfellowship"
+          }
+        ]
+      },
+      {
+        "text": "What will be my starting salary?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "starting salary",
+            "entity": "salaryafterfellowship"
+          }
+        ]
+      },
+      {
+        "text": "What type of projects will the fellowship engineers get a chance to work on?",
+        "intent": "projects",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "projects",
+            "entity": "projectsduringfellowship"
+          }
+        ]
+      },
+      {
+        "text": "What does the day-to-day look like?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "day-to-day look like",
+            "entity": "dailytasks"
+          }
+        ]
+      },
+      {
+        "text": "What percentage of the fellowship is developing real-world apps?",
+        "intent": "details",
+        "entities": []
+      },
+      {
+        "text": "What tools will I get a chance to learn?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "tools",
+            "entity": "technologyanddomain"
+          }
+        ]
+      },
+      {
+        "text": "What tools will fellowship engineer get a chance to learn?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "tools",
+            "entity": "technologyanddomain"
+          }
+        ]
+      },
+      {
+        "text": "how much time will take to complete fellowship program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 27,
+            "end": 54,
+            "value": "complete fellowship program",
+            "entity": "durationofprogram"
+          }
+        ]
+      },
+      {
+        "text": "Do I need to pay for fellowship program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 13,
+            "end": 39,
+            "value": "pay for fellowship program",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "what is the duration of the fellowship program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "duration",
+            "entity": "durationofprogram"
+          }
+        ]
+      },
+      {
+        "text": "What tools will I get a chance to work on?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "tools",
+            "entity": "technologyanddomain"
+          }
+        ]
+      },
+      {
+        "text": "What tools will fellowship engineer get a chance to work on?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "tools",
+            "entity": "technologyanddomain"
+          }
+        ]
+      },
+      {
+        "text": "Where training will be held?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "training",
+            "entity": "program"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "held",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How do I get admission in training program?",
+        "intent": "hiringprocess",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "training program",
+            "entity": "program"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "admission",
+            "entity": "recruitment"
+          }
+        ]
+      },
+      {
+        "text": "What is the working hours of the training program?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 33,
+            "end": 49,
+            "value": "training program",
+            "entity": "program"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "working hours",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Do I get any living accommodations?",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 13,
+            "end": 34,
+            "value": "living accommodations",
+            "entity": "accommodation"
+          }
+        ]
+      },
+      {
+        "text": "What are the Relocation options provide by the Bridgelabz",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "Relocation options ",
+            "entity": "relocation"
+          }
+        ]
+      },
+      {
+        "text": "For Relocation bridgelabz will provide any support",
+        "intent": "details",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "Relocation",
+            "entity": "relocation"
+          },
+          {
+            "start": 15,
+            "end": 25,
+            "value": "bridgelabz",
+            "entity": "organization"
+          }
+        ]
+      },
+      {
+        "text": "Is this fellowship program applicable for Experienced persons",
+        "intent": "hiringdetails",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "fellowship program",
+            "entity": "program"
+          },
+          {
+            "start": 42,
+            "end": 61,
+            "value": "Experienced persons",
+            "entity": "eligibility"
+          }
+        ]
+      },
+      {
+        "text": "good bye",
+        "intent": "good bye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "good bye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "good bye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "good bye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "good bye",
+        "entities": []
+      },
+      {
+        "text": "Ok",
+        "intent": "Affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes please",
+        "intent": "Affirmative",
+        "entities": []
+      }
+    ]
+  }
+}
